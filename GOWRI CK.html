@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pookkalam</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #111;
+    }
+    svg { width: 650px; height: 650px; }
+  </style>
+</head>
+<body>
+  <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- OUTER ORANGE PETALS -->
+    <g id="outerPetal">
+      <ellipse cx="300" cy="80" rx="35" ry="70" fill="#FF9800"/>
+    </g>
+    <g>
+      <use href="#outerPetal" transform="rotate(20,300,300)" />
+      <use href="#outerPetal" transform="rotate(40,300,300)" />
+      <use href="#outerPetal" transform="rotate(60,300,300)" />
+      <use href="#outerPetal" transform="rotate(80,300,300)" />
+      <use href="#outerPetal" transform="rotate(100,300,300)" />
+      <use href="#outerPetal" transform="rotate(120,300,300)" />
+      <use href="#outerPetal" transform="rotate(140,300,300)" />
+      <use href="#outerPetal" transform="rotate(160,300,300)" />
+      <use href="#outerPetal" transform="rotate(180,300,300)" />
+      <use href="#outerPetal" transform="rotate(200,300,300)" />
+      <use href="#outerPetal" transform="rotate(220,300,300)" />
+      <use href="#outerPetal" transform="rotate(240,300,300)" />
+      <use href="#outerPetal" transform="rotate(260,300,300)" />
+      <use href="#outerPetal" transform="rotate(280,300,300)" />
+      <use href="#outerPetal" transform="rotate(300,300,300)" />
+      <use href="#outerPetal" transform="rotate(320,300,300)" />
+      <use href="#outerPetal" transform="rotate(340,300,300)" />
+      <use href="#outerPetal" transform="rotate(360,300,300)" />
+    </g>
+
+    <!-- YELLOW RING -->
+    <circle cx="300" cy="300" r="230" fill="gold" />
+
+    <!-- SMALL FLOWERS on yellow ring -->
+    <g id="tinyFlower">
+      <circle cx="300" cy="70" r="4" fill="#FF4081"/>
+      <circle cx="293" cy="70" r="3" fill="#FFEB3B"/>
+      <circle cx="307" cy="70" r="3" fill="#FFEB3B"/>
+      <circle cx="300" cy="63" r="3" fill="#FFEB3B"/>
+      <circle cx="300" cy="77" r="3" fill="#FFEB3B"/>
+    </g>
+    <g>
+      <use href="#tinyFlower" transform="rotate(15,300,300)" />
+      <use href="#tinyFlower" transform="rotate(30,300,300)" />
+      <use href="#tinyFlower" transform="rotate(45,300,300)" />
+      <use href="#tinyFlower" transform="rotate(60,300,300)" />
+      <use href="#tinyFlower" transform="rotate(75,300,300)" />
+      <use href="#tinyFlower" transform="rotate(90,300,300)" />
+      <use href="#tinyFlower" transform="rotate(105,300,300)" />
+      <use href="#tinyFlower" transform="rotate(120,300,300)" />
+      <use href="#tinyFlower" transform="rotate(135,300,300)" />
+      <use href="#tinyFlower" transform="rotate(150,300,300)" />
+      <use href="#tinyFlower" transform="rotate(165,300,300)" />
+      <use href="#tinyFlower" transform="rotate(180,300,300)" />
+      <use href="#tinyFlower" transform="rotate(195,300,300)" />
+      <use href="#tinyFlower" transform="rotate(210,300,300)" />
+      <use href="#tinyFlower" transform="rotate(225,300,300)" />
+      <use href="#tinyFlower" transform="rotate(240,300,300)" />
+      <use href="#tinyFlower" transform="rotate(255,300,300)" />
+      <use href="#tinyFlower" transform="rotate(270,300,300)" />
+      <use href="#tinyFlower" transform="rotate(285,300,300)" />
+      <use href="#tinyFlower" transform="rotate(300,300,300)" />
+      <use href="#tinyFlower" transform="rotate(315,300,300)" />
+      <use href="#tinyFlower" transform="rotate(330,300,300)" />
+      <use href="#tinyFlower" transform="rotate(345,300,300)" />
+      <use href="#tinyFlower" transform="rotate(360,300,300)" />
+    </g>
+
+    <!-- MIDDLE RED PETALS -->
+    <g id="middlePetal">
+      <ellipse cx="300" cy="140" rx="25" ry="55" fill="#E53935"/>
+    </g>
+    <g>
+      <use href="#middlePetal" transform="rotate(20,300,300)" />
+      <use href="#middlePetal" transform="rotate(40,300,300)" />
+      <use href="#middlePetal" transform="rotate(60,300,300)" />
+      <use href="#middlePetal" transform="rotate(80,300,300)" />
+      <use href="#middlePetal" transform="rotate(100,300,300)" />
+      <use href="#middlePetal" transform="rotate(120,300,300)" />
+      <use href="#middlePetal" transform="rotate(140,300,300)" />
+      <use href="#middlePetal" transform="rotate(160,300,300)" />
+      <use href="#middlePetal" transform="rotate(180,300,300)" />
+      <use href="#middlePetal" transform="rotate(200,300,300)" />
+      <use href="#middlePetal" transform="rotate(220,300,300)" />
+      <use href="#middlePetal" transform="rotate(240,300,300)" />
+      <use href="#middlePetal" transform="rotate(260,300,300)" />
+      <use href="#middlePetal" transform="rotate(280,300,300)" />
+      <use href="#middlePetal" transform="rotate(300,300,300)" />
+      <use href="#middlePetal" transform="rotate(320,300,300)" />
+      <use href="#middlePetal" transform="rotate(340,300,300)" />
+      <use href="#middlePetal" transform="rotate(360,300,300)" />
+    </g>
+
+    <!-- LIGHT GREEN CIRCLE -->
+    <circle cx="300" cy="300" r="160" fill="#8BC34A" />
+
+    <!-- DUAL-COLORED CIRCLE -->
+    <defs>
+      <linearGradient id="dualGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#283593"/>
+        <stop offset="100%" stop-color="#E91E63"/>
+      </linearGradient>
+    </defs>
+    <circle cx="300" cy="300" r="135" fill="url(#dualGrad)" />
+
+    <!-- OUTER WHITE TWISTED STRIPES (BOLDER) -->
+    <g id="cStripeOuter">
+      <path d="M 300 165 
+               A 135 135 0 0 1 355 220 
+               A 100 100 0 0 0 300 165 Z" 
+            fill="#FFFFFF" />
+    </g>
+    <g>
+      <use href="#cStripeOuter" transform="rotate(15,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(30,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(45,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(60,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(75,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(90,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(105,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(120,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(135,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(150,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(165,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(180,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(195,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(210,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(225,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(240,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(255,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(270,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(285,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(300,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(315,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(330,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(345,300,300)" />
+      <use href="#cStripeOuter" transform="rotate(360,300,300)" />
+    </g>
+
+    <!-- INNER YELLOW PETALS -->
+    <g id="innerPetal">
+      <ellipse cx="300" cy="230" rx="12" ry="25" fill="#FFEB3B"/>
+    </g>
+    <g>
+      <use href="#innerPetal" transform="rotate(0,300,300)" />
+      <use href="#innerPetal" transform="rotate(30,300,300)" />
+      <use href="#innerPetal" transform="rotate(60,300,300)" />
+      <use href="#innerPetal" transform="rotate(90,300,300)" />
+      <use href="#innerPetal" transform="rotate(120,300,300)" />
+      <use href="#innerPetal" transform="rotate(150,300,300)" />
+      <use href="#innerPetal" transform="rotate(180,300,300)" />
+      <use href="#innerPetal" transform="rotate(210,300,300)" />
+      <use href="#innerPetal" transform="rotate(240,300,300)" />
+      <use href="#innerPetal" transform="rotate(270,300,300)" />
+      <use href="#innerPetal" transform="rotate(300,300,300)" />
+      <use href="#innerPetal" transform="rotate(330,300,300)" />
+    </g>
+
+    <!-- NEW OUTLINE AFTER INNER PETALS (DARK ROSE RED) -->
+    <circle cx="300" cy="300" r="100" fill="none" stroke="#C21807" stroke-width="6"/>
+
+    <!-- CENTER RED FLOWER -->
+    <g id="centerFlower">
+      <ellipse cx="300" cy="282" rx="8" ry="16" fill="#E53935" transform="rotate(0,300,300)" />
+      <ellipse cx="300" cy="282" rx="8" ry="16" fill="#E53935" transform="rotate(60,300,300)" />
+      <ellipse cx="300" cy="282" rx="8" ry="16" fill="#E53935" transform="rotate(120,300,300)" />
+      <ellipse cx="300" cy="282" rx="8" ry="16" fill="#E53935" transform="rotate(180,300,300)" />
+      <ellipse cx="300" cy="282" rx="8" ry="16" fill="#E53935" transform="rotate(240,300,300)" />
+      <ellipse cx="300" cy="282" rx="8" ry="16" fill="#E53935" transform="rotate(300,300,300)" />
+      <circle cx="300" cy="300" r="6" fill="white"/>
+    </g>
+
+  </svg>
+</body>
+</html>
