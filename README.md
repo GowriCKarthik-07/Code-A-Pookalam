@@ -14,7 +14,7 @@ https://gowrickarthik-07.github.io/Code-A-Pookalam/
 
 
 ### Pookalam Description
-My aim was to build a realistic pookalam. This is basically a cute flower themed pookalam. I gave a flower with red petals in the middle and also stripes in the second layer which makes it attractive. I also included tiny flowers  with detailings  in the outermost circle which became my personal favourite part in this pookalam and i believe that it made the pookalam complete and special. 
+My aim was to build a realistic pookalam.For that reason,I have done a static pookalam without any animations. This is basically a cute flower themed pookalam. I gave a flower with red petals in the middle and also stripes in the second layer which makes it attractive. I also included tiny flowers  with detailings  in the outermost circle which became my personal favourite part in this pookalam and i believe that it made the pookalam complete and special. 
 
 
 
@@ -25,7 +25,7 @@ VS Code
 Git & GitHub
 
 ### Video explaining How you build the pookalam
-
+https://drive.google.com/file/d/1KnXztOVQ7e-p_WgOafNf3Eip8fWa3DvE/view?usp=drive_link
 
 
 ### Screenshots
